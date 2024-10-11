@@ -18,3 +18,15 @@ MISC: 0x6b0c <- locked
 MISC: 0x6b0c <- locked
 Ready to fix it? [y/N]: y
 ```
+## Exemplo em um Debian 12
+## Example on a Debian 12
+
+```shell
+apt update -y && apt upgrade -y
+apt install wget zip unzip make gcc -y
+wget https://github.com/ferenznetworks/xl710_unlock/archive/refs/heads/main.zip
+unzip master.zip
+cd xl710_unlock-master
+make
+./xl710_unlock -n NOMEDAINTERFACE-EX-ENO1
+```
