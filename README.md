@@ -1,7 +1,7 @@
 # xl710_unlock
 
 Este programa desbloqueia NICs Intel xl710.
-...
+---
 This program unlocks intel xl710 NICs.
 
 ## Modo de usar
